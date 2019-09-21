@@ -1,0 +1,203 @@
+/*!
+ * pribel-tlas13
+ * Free HTML Pricing Table - Bootstrap 4 Template #13
+ * git+https://github.com/koolui/pribel-tlas13.git
+ * @author Kool UI Studio
+ * @version 1.0.0
+ * Copyright 2019. SEE LICENSE IN README.md licensed.
+ */
+.adscard {
+  padding: 10px;
+  background: #ffffff;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border: 1px solid #dddddd; }
+  .adscard:after {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    content: "Affiliate";
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0 5px;
+    font-size: 10px; }
+  .adscard--live {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .adscard__img {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px; }
+    .adscard__img img {
+      width: 80px;
+      border-radius: 3px; }
+  .adscard__caption {
+    margin: 0;
+    line-height: 16px;
+    font-size: 14px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .adscard__caption a {
+      text-decoration: none;
+      color: #434343; }
+      .adscard__caption a:hover {
+        text-decoration: underline; }
+    .adscard__caption span {
+      display: block; }
+    .adscard__caption__secondary {
+      font-size: 12px;
+      margin-top: 5px; }
+      .adscard__caption__secondary > a {
+        color: #999999; }
+
+.livedemo {
+  padding-top: 80px; }
+  .livedemo nav .form-inline .btn {
+    margin-right: 6px; }
+    .livedemo nav .form-inline .btn:last-child {
+      margin-right: 0; }
+  .livedemo .footerdemo {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    color: #999999; }
+
+body {
+  font-size: 16px;
+  color: #4A4A4A;
+  background-color: #EEEEEE; }
+
+.koolui-pribel-tlas13 {
+  font-family: "Open Sans", sans-serif;
+  padding: 60px 0; }
+  .koolui-pribel-tlas13 .item {
+    border-radius: 20px;
+    margin-bottom: 45px;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 30px;
+    -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.05); }
+    .koolui-pribel-tlas13 .item .btn.btn-primary {
+      height: 44px;
+      border-radius: 22px;
+      font-weight: 700;
+      font-size: .875rem;
+      position: relative; }
+    .koolui-pribel-tlas13 .item--01 .item__pricing {
+      background-color: #686EE0;
+      -webkit-box-shadow: 0 0 0 10px rgba(104, 110, 224, 0.1);
+              box-shadow: 0 0 0 10px rgba(104, 110, 224, 0.1); }
+    .koolui-pribel-tlas13 .item--01 .item__content ul li .koolicon {
+      color: #686EE0; }
+    .koolui-pribel-tlas13 .item--01 .btn.btn-primary {
+      background-color: #686EE0;
+      border-color: #686EE0; }
+      .koolui-pribel-tlas13 .item--01 .btn.btn-primary:hover {
+        background-color: #3e45d7;
+        border-color: #3e45d7; }
+    .koolui-pribel-tlas13 .item--03 .item__pricing {
+      background-color: #8BC63F;
+      -webkit-box-shadow: 0 0 0 10px rgba(139, 198, 63, 0.1);
+              box-shadow: 0 0 0 10px rgba(139, 198, 63, 0.1); }
+    .koolui-pribel-tlas13 .item--03 .item__content ul li .koolicon {
+      color: #8BC63F; }
+    .koolui-pribel-tlas13 .item--03 .btn.btn-primary {
+      background-color: #8BC63F;
+      border-color: #8BC63F; }
+      .koolui-pribel-tlas13 .item--03 .btn.btn-primary:hover {
+        background-color: #70a230;
+        border-color: #70a230; }
+    .koolui-pribel-tlas13 .item--02 {
+      background: #F9AF3F;
+      background: -webkit-gradient(linear, left bottom, left top, from(#F9AF3F), to(#DE4422));
+      background: -o-linear-gradient(bottom, #F9AF3F 0%, #DE4422 100%);
+      background: linear-gradient(0deg, #F9AF3F 0%, #DE4422 100%);
+      color: #FFFFFF; }
+      .koolui-pribel-tlas13 .item--02 .item__pricing {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15);
+                box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15); }
+      .koolui-pribel-tlas13 .item--02 .item__content ul li {
+        color: #FFFFFF; }
+      .koolui-pribel-tlas13 .item--02 .btn.btn-primary {
+        background-color: #FFFFFF;
+        border-color: #FFFFFF;
+        color: #F9AF3F; }
+        .koolui-pribel-tlas13 .item--02 .btn.btn-primary:hover {
+          background-color: rgba(255, 255, 255, 0.8);
+          border-color: rgba(255, 255, 255, 0.8); }
+    @media screen and (min-width: 992px) {
+      .koolui-pribel-tlas13 .item {
+        margin-bottom: 0; } }
+    .koolui-pribel-tlas13 .item__heading h3 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1.25rem;
+      margin: 0;
+      margin-bottom: 30px; }
+    .koolui-pribel-tlas13 .item__content ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      margin-bottom: 30px; }
+      .koolui-pribel-tlas13 .item__content ul li {
+        line-height: 36px;
+        font-size: .875rem;
+        color: #999999;
+        position: relative;
+        padding-left: 46px; }
+        .koolui-pribel-tlas13 .item__content ul li .koolicon {
+          position: absolute;
+          left: 0;
+          top: 0;
+          display: block;
+          font-size: 1.5rem;
+          width: 36px;
+          height: 36px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+    .koolui-pribel-tlas13 .item__pricing {
+      width: 140px;
+      height: 140px;
+      border-radius: 70px;
+      color: #FFFFFF;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .koolui-pribel-tlas13 .item__pricing p {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.625rem;
+        margin: 0; }
+        .koolui-pribel-tlas13 .item__pricing p small {
+          display: block;
+          font-size: .75rem;
+          line-height: .875rem;
+          margin: 0; }
